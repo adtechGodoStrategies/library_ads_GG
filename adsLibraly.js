@@ -4,6 +4,7 @@
   s.setAttribute('src', 'https://rsc.lavanguardia.com/js/godo-basex-v1000584.js');
   s.setAttribute('async', '');
   s.onload = function() {
+    console.log('dentro del breakpoint');
       gg.breakpoint.setBreakpoints({
           xs: 0,
           md: 1024
@@ -62,5 +63,6 @@
   }
   ;
   document.head.appendChild(s);
+  console.log(adsCfg);
 }
 )();
