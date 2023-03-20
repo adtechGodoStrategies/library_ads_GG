@@ -60,9 +60,11 @@
       s3.setAttribute('src', 'https://cdn.insurads.com/bootstrap/5RZFWTDB.js');
       s3.setAttribute('async', '');
       document.head.appendChild(s3);
+      console.log(adsCfg)
   }
   ;
   document.head.appendChild(s);
-  console.log(adsCfg);
+
+  godo.ads.push(function(x) {x.display("[data-ad-lazy=false]")})
 }
 )();
