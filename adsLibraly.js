@@ -1,5 +1,7 @@
 (function() {
-  console.log('cargando libreria GG')
+  console.log('cargando libreria GG');
+  window. didomiVersion = 2; var godo = {};
+  godo.ads = [];
   var s = document.createElement('script');
   s.setAttribute('src', 'https://rsc.lavanguardia.com/js/godo-basex-v1000584.js');
   s.setAttribute('async', '');
